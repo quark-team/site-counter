@@ -11,10 +11,10 @@ export class AppComponent implements OnInit, OnDestroy {
   title = 'quarksite';
   private _trialEndsAt;
   private _diff: number;
-  private _days: number;
-  private _hours: number;
-  private _minutes: number;
-  private _seconds: number;
+  public _days: number;
+  public _hours: number;
+  public _minutes: number;
+  public _seconds: number;
   private _subscription: Subscription;
 
   constructor() {
