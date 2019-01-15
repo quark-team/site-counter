@@ -9,13 +9,13 @@ import { map } from 'rxjs/operators';
 })
 export class AppComponent implements OnInit, OnDestroy {
   title = 'quarksite';
-  private _trialEndsAt;
-  private _diff: number;
+  public _trialEndsAt;
+  public _diff: number;
   public _days: number;
   public _hours: number;
   public _minutes: number;
   public _seconds: number;
-  private _subscription: Subscription;
+  public _subscription: Subscription;
 
   constructor() {
 
