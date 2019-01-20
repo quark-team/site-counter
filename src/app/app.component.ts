@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit, OnDestroy {
-  title = 'quarksite';
+  public readonly linkedinUrl: string = "https://www.linkedin.com/in/quark-solutions-spa-a20931179";
   public _trialEndsAt;
   public _diff: number;
   public _days: number;
