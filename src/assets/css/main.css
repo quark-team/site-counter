@@ -822,10 +822,10 @@ header .logo a {
 	padding: 0;
 	outline: 0;
 	border: none;
-	width: 97px;
+	width: 287px;
 	height: 84px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 97px 84px;
+	background: url('../images/logo.png') no-repeat center;
+	background-size: 100%;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
@@ -883,9 +883,9 @@ header .social-links ul li a:focus {
 		margin-top: 42px;
 	}
 	header .logo a {
-		width: 90px;
+		width: 270px;
 		height: 78px;
-		background-size: 90px 78px;
+		background-size: 100%;
 	}
 	header .social-links {
 		right: 18px;
@@ -898,9 +898,9 @@ header .social-links ul li a:focus {
 		margin-top: 36px;
 	}
 	header .logo a {
-		width: 80px;
-		height: 70px;
-		background-size: 80px 70px;
+		width: 240px;
+		height: 60px;
+		background-size: 100%;
 	}
 	header .social-links {
 		right: 45px;
@@ -913,9 +913,9 @@ header .social-links ul li a:focus {
 		margin-top: 30px;
 	}
 	header .logo a {
-		width: 70px;
+		width: 230px;
 		height: 61px;
-		background-size: 70px 61px;
+		background-size: 100%;
 	}
 	header .social-links {
 		right: 41px;
@@ -945,9 +945,9 @@ header .social-links ul li a:focus {
 		margin-top: 30px;
 	}
 	header .logo a {
-		width: 60px;
+		width: 220;
 		height: 52px;
-		background-size: 60px 52px;
+		background-size: 100%;
 	}
 	header .social-links ul {
 		font-size: 2rem;
@@ -1004,7 +1004,7 @@ header .social-links ul li a:focus {
 	left: 0;
 	height: 100% !important;
 	width: 100% !important;
-	opacity: .12;
+	opacity: .22;
 }
 #home.home-particles .shadow-overlay {
 	display: none;
